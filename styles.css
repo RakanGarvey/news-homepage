@@ -1,0 +1,150 @@
+body{
+    margin-top: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+header {
+    background-color: #ffffff;
+    height: 80px;
+    width: 65pc;
+    display: flex;
+    gap: 28pc;
+    align-items: center;
+}
+.logo {
+    cursor: pointer;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 40px;
+    font-size: large;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    left: 13px;
+}
+li {
+    height: 24px;
+}
+li:hover {
+    font-weight: bold;
+    border-bottom: 1px solid hsl(240, 100%, 5%);
+}
+.articles {
+    display: flex;
+    gap: 1.5pc;
+    height: 28pc;
+}
+.big-article {
+    background-color: rgb(255, 255, 255);
+    width: 41.5pc;
+}
+.description {
+    display: flex;
+    gap: 4.5pc;
+}
+#cover {
+    width: 41.5pc;
+}
+.desc {
+    width: 30pc;
+}
+button {
+    width: 180px;
+    height: 38px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    color: white;
+    position: relative;
+    top: 28px;
+}
+button:hover {
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.head {
+    position: relative;
+    bottom: 13px;
+    left: 5px;
+    font-size: 20px;
+}
+h1 {
+    width: 15pc;
+}
+/* ----------------------------- */
+.small-article {
+    background-color: hsl(240, 100%, 5%);
+    width: 22pc;
+    color: #ffffff;
+}
+h2 {
+    font-weight: 800;
+    color: hsl(35, 77%, 62%);
+}
+h2, .small {
+    margin-left: 26px;
+}
+h3:hover {
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+    transition: 0.9s;
+}
+.small {
+    width: 18.7pc;
+    height: 110px;
+    margin-bottom: 30px;
+}
+.small1, .small2 {
+    border-bottom: 1px solid rgba(12, 12, 12, 0.4);
+}
+.small2 {
+    height: 95px;
+}
+.small3 {
+    position: relative;
+}
+/* __________________________________________________________________________________ */
+.multiple-articles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.article {
+    display: flex;
+}
+h5 {
+    font-size: 25px;
+    position: relative;
+    bottom: 42px;
+    left: 14px;
+    font: bold;
+}
+h6 {
+    font-size: 20px;
+    position: relative;
+    bottom: 72px;
+    left: 14px;
+}
+h6:hover {
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+    transition: 0.9s;
+}
+.p {
+    position: relative;
+    bottom: 70px;
+    left: 14px;
+}
+h5, h6, p {
+    margin-bottom: -7px;
+}
+#pic {
+    height: 120px;
+}
